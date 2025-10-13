@@ -1,0 +1,41 @@
+body.over { overflow: hidden;}
+/* mobile menu css */
+.mobile-menu { position:fixed; top:87px; width:100%; z-index: 99;  height: calc(100vh - 87px); overflow:auto;opacity: 0; visibility: hidden; transition: all 0.2s ease;display: none;padding:30px 0;background: url(https://thesnowdoncottage.co.uk/wp-content/uploads/2020/07/bg-test.png); } 
+body.over .mobile-menu{display: block;}
+.m-menu img { width: 20px;}   
+.mobile-menu .mob-main { float:left; width:100%;}
+.mobile-menu .logo { float:left; padding:20px; width:100%;}
+.mobile-menu .logo img { float:left; background: none; background: #ffffff;}
+.mobile-menu.slow { opacity: 1; visibility: visible; }
+.mobile-menu .nav { width: 100%;  background: #fff; float: left;  padding: 0 0 75px 0; height:100%;}
+
+.m-menu { float: right; z-index: 9999; position: relative; right: 0; display:none; width: 30px; height: 22px; top:0px; margin: 0px 0 0 0; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .5s ease-in-out; -moz-transition: .5s ease-in-out; -o-transition: .5s ease-in-out; transition: .5s ease-in-out; cursor: pointer;}
+.m-menu a { display: block;}
+.m-menu span { display: block; position: absolute; height: 2px; width: 100%; background: #000; border-radius: 3px; opacity: 1; left: 0; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg);  -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out; }  
+.m-menu:hover span { background:#000;}
+.is-sticky .m-menu span { background:#000;}
+.innerpage .m-menu span { background:#000;}
+.m-menu span:nth-child(1) { top: 0px; -webkit-transform-origin: left center; -moz-transform-origin: left center; -o-transform-origin: left center; transform-origin: left center; }
+.m-menu span:nth-child(2) { top: 9px; -webkit-transform-origin: left center; -moz-transform-origin: left center; -o-transform-origin: left center; transform-origin: left center; }
+.m-menu span:nth-child(3) { top: 18px; -webkit-transform-origin: left center; -moz-transform-origin: left center; -o-transform-origin: left center; transform-origin: left center; }
+.m-menu.open span:nth-child(1) { -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); top: 0px; left: 4px; background: #000;}
+.m-menu.open span:nth-child(2) { width: 0%; opacity: 0;}
+.m-menu.open span:nth-child(3) { -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); top: 21px; left: 4px; background: #000; }
+
+.mob-men ul li{margin-bottom: 10px;}
+.mob-men ul li a{font-size: 20px;line-height: 24px;letter-spacing: 0.35px;color: #fff;font-family: var(--Jost-Medium);}
+.mob-men ul li a:hover{color: #000;}
+
+.mob-btm-lnk { display: inline-block; width: 100%; text-align: center;padding: 15px 30px 30px;border-top:1px solid #fff;position: fixed;bottom: 0;left: 0;z-index: 9;} 
+.mob-addr-details { width: 100%; padding-bottom: 6px;} 
+.mob-addr-details ul li { width: 100%;margin-bottom: 5px;}
+.mob-addr-details ul li:last-child{margin: 0;}
+.mob-addr-details ul li a { color: #ffffff; transition:all .5s ease;font-family: var(--Jost-Medium);font-size: 16px; line-height: 24px; color: #ffffff; letter-spacing: 0.35px;}
+.mob-addr-details ul li a:hover { opacity: 0.7;text-decoration: underline;} 
+
+.mob-nav .mob-scl-lnks{width: 100%;display: flex;justify-content: center;margin-top: 12px;align-items: center;}  
+.mob-nav .mob-scl-lnks ul { width: auto; display: flex; flex-wrap: wrap; column-gap: 15px; align-items: center;}
+.mob-nav .mob-scl-lnks ul li { flex: 0 1 auto; padding-left: 0; margin-bottom: 0;width: 35px;height: 35px;background: #000;display: block;display: flex;justify-content: center;align-items: center;border-radius: 100%; }
+.mob-nav .mob-scl-lnks ul li a { transition:all .5s ease; display: inline-flex;}
+.mob-nav .mob-scl-lnks ul li a.hdr-fb-ico { background: url("../images/ico-facebook-white.svg") no-repeat scroll 0 0; width: 9px; height: 16px;background-size: cover;}
+.mob-nav .mob-scl-lnks ul li a:hover {opacity: 0.7;}

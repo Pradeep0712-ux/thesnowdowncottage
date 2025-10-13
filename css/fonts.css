@@ -1,0 +1,364 @@
+@font-face {
+    font-family: 'CormorantGaramond-MediumItalic';
+    src: url('fonts/CormorantGaramond-MediumItalic.eot');
+    src: url('fonts/CormorantGaramond-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CormorantGaramond-MediumItalic.woff2') format('woff2'),
+        url('fonts/CormorantGaramond-MediumItalic.woff') format('woff'),
+        url('fonts/CormorantGaramond-MediumItalic.ttf') format('truetype'),
+        url('fonts/CormorantGaramond-MediumItalic.svg#CormorantGaramond-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CormorantGaramond-Italic';
+    src: url('fonts/CormorantGaramond-Italic.eot');
+    src: url('fonts/CormorantGaramond-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CormorantGaramond-Italic.woff2') format('woff2'),
+        url('fonts/CormorantGaramond-Italic.woff') format('woff'),
+        url('fonts/CormorantGaramond-Italic.ttf') format('truetype'),
+        url('fonts/CormorantGaramond-Italic.svg#CormorantGaramond-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CormorantGaramond-LightItalic';
+    src: url('fonts/CormorantGaramond-LightItalic.eot');
+    src: url('fonts/CormorantGaramond-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CormorantGaramond-LightItalic.woff2') format('woff2'),
+        url('fonts/CormorantGaramond-LightItalic.woff') format('woff'),
+        url('fonts/CormorantGaramond-LightItalic.ttf') format('truetype'),
+        url('fonts/CormorantGaramond-LightItalic.svg#CormorantGaramond-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CormorantGaramond-BoldItalic';
+    src: url('fonts/CormorantGaramond-BoldItalic.eot');
+    src: url('fonts/CormorantGaramond-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CormorantGaramond-BoldItalic.woff2') format('woff2'),
+        url('fonts/CormorantGaramond-BoldItalic.woff') format('woff'),
+        url('fonts/CormorantGaramond-BoldItalic.ttf') format('truetype'),
+        url('fonts/CormorantGaramond-BoldItalic.svg#CormorantGaramond-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CormorantGaramond-Bold';
+    src: url('fonts/CormorantGaramond-Bold.eot');
+    src: url('fonts/CormorantGaramond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CormorantGaramond-Bold.woff2') format('woff2'),
+        url('fonts/CormorantGaramond-Bold.woff') format('woff'),
+        url('fonts/CormorantGaramond-Bold.ttf') format('truetype'),
+        url('fonts/CormorantGaramond-Bold.svg#CormorantGaramond-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CormorantGaramond-Medium';
+    src: url('fonts/CormorantGaramond-Medium.eot');
+    src: url('fonts/CormorantGaramond-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CormorantGaramond-Medium.woff2') format('woff2'),
+        url('fonts/CormorantGaramond-Medium.woff') format('woff'),
+        url('fonts/CormorantGaramond-Medium.ttf') format('truetype'),
+        url('fonts/CormorantGaramond-Medium.svg#CormorantGaramond-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CormorantGaramond-Light';
+    src: url('fonts/CormorantGaramond-Light.eot');
+    src: url('fonts/CormorantGaramond-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CormorantGaramond-Light.woff2') format('woff2'),
+        url('fonts/CormorantGaramond-Light.woff') format('woff'),
+        url('fonts/CormorantGaramond-Light.ttf') format('truetype'),
+        url('fonts/CormorantGaramond-Light.svg#CormorantGaramond-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CormorantGaramond-SemiBold';
+    src: url('fonts/CormorantGaramond-SemiBold.eot');
+    src: url('fonts/CormorantGaramond-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CormorantGaramond-SemiBold.woff2') format('woff2'),
+        url('fonts/CormorantGaramond-SemiBold.woff') format('woff'),
+        url('fonts/CormorantGaramond-SemiBold.ttf') format('truetype'),
+        url('fonts/CormorantGaramond-SemiBold.svg#CormorantGaramond-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CormorantGaramond-Regular';
+    src: url('fonts/CormorantGaramond-Regular.eot');
+    src: url('fonts/CormorantGaramond-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CormorantGaramond-Regular.woff2') format('woff2'),
+        url('fonts/CormorantGaramond-Regular.woff') format('woff'),
+        url('fonts/CormorantGaramond-Regular.ttf') format('truetype'),
+        url('fonts/CormorantGaramond-Regular.svg#CormorantGaramond-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'CormorantGaramond-SemiBoldItalic';
+    src: url('fonts/CormorantGaramond-SemiBoldItalic.eot');
+    src: url('fonts/CormorantGaramond-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/CormorantGaramond-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/CormorantGaramond-SemiBoldItalic.woff') format('woff'),
+        url('fonts/CormorantGaramond-SemiBoldItalic.ttf') format('truetype'),
+        url('fonts/CormorantGaramond-SemiBoldItalic.svg#CormorantGaramond-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-ExtraLight';
+    src: url('fonts/Jost-ExtraLight.eot');
+    src: url('fonts/Jost-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-ExtraLight.woff2') format('woff2'),
+        url('fonts/Jost-ExtraLight.woff') format('woff'),
+        url('fonts/Jost-ExtraLight.ttf') format('truetype'),
+        url('fonts/Jost-ExtraLight.svg#Jost-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-BlackItalic';
+    src: url('fonts/Jost-BlackItalic.eot');
+    src: url('fonts/Jost-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-BlackItalic.woff2') format('woff2'),
+        url('fonts/Jost-BlackItalic.woff') format('woff'),
+        url('fonts/Jost-BlackItalic.ttf') format('truetype'),
+        url('fonts/Jost-BlackItalic.svg#Jost-BlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-ExtraBoldItalic';
+    src: url('fonts/Jost-ExtraBoldItalic.eot');
+    src: url('fonts/Jost-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-ExtraBoldItalic.woff2') format('woff2'),
+        url('fonts/Jost-ExtraBoldItalic.woff') format('woff'),
+        url('fonts/Jost-ExtraBoldItalic.ttf') format('truetype'),
+        url('fonts/Jost-ExtraBoldItalic.svg#Jost-ExtraBoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-Bold';
+    src: url('fonts/Jost-Bold.eot');
+    src: url('fonts/Jost-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-Bold.woff2') format('woff2'),
+        url('fonts/Jost-Bold.woff') format('woff'),
+        url('fonts/Jost-Bold.ttf') format('truetype'),
+        url('fonts/Jost-Bold.svg#Jost-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-ExtraBold';
+    src: url('fonts/Jost-ExtraBold.eot');
+    src: url('fonts/Jost-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-ExtraBold.woff2') format('woff2'),
+        url('fonts/Jost-ExtraBold.woff') format('woff'),
+        url('fonts/Jost-ExtraBold.ttf') format('truetype'),
+        url('fonts/Jost-ExtraBold.svg#Jost-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-BoldItalic';
+    src: url('fonts/Jost-BoldItalic.eot');
+    src: url('fonts/Jost-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-BoldItalic.woff2') format('woff2'),
+        url('fonts/Jost-BoldItalic.woff') format('woff'),
+        url('fonts/Jost-BoldItalic.ttf') format('truetype'),
+        url('fonts/Jost-BoldItalic.svg#Jost-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-Black';
+    src: url('fonts/Jost-Black.eot');
+    src: url('fonts/Jost-Black.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-Black.woff2') format('woff2'),
+        url('fonts/Jost-Black.woff') format('woff'),
+        url('fonts/Jost-Black.ttf') format('truetype'),
+        url('fonts/Jost-Black.svg#Jost-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-ThinItalic';
+    src: url('fonts/Jost-ThinItalic.eot');
+    src: url('fonts/Jost-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-ThinItalic.woff2') format('woff2'),
+        url('fonts/Jost-ThinItalic.woff') format('woff'),
+        url('fonts/Jost-ThinItalic.ttf') format('truetype'),
+        url('fonts/Jost-ThinItalic.svg#Jost-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-Medium';
+    src: url('fonts/Jost-Medium.eot');
+    src: url('fonts/Jost-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-Medium.woff2') format('woff2'),
+        url('fonts/Jost-Medium.woff') format('woff'),
+        url('fonts/Jost-Medium.ttf') format('truetype'),
+        url('fonts/Jost-Medium.svg#Jost-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-Light';
+    src: url('fonts/Jost-Light.eot');
+    src: url('fonts/Jost-Light.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-Light.woff2') format('woff2'),
+        url('fonts/Jost-Light.woff') format('woff'),
+        url('fonts/Jost-Light.ttf') format('truetype'),
+        url('fonts/Jost-Light.svg#Jost-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-ExtraLightItalic';
+    src: url('fonts/Jost-ExtraLightItalic.eot');
+    src: url('fonts/Jost-ExtraLightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-ExtraLightItalic.woff2') format('woff2'),
+        url('fonts/Jost-ExtraLightItalic.woff') format('woff'),
+        url('fonts/Jost-ExtraLightItalic.ttf') format('truetype'),
+        url('fonts/Jost-ExtraLightItalic.svg#Jost-ExtraLightItalic') format('svg');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-Thin';
+    src: url('fonts/Jost-Thin.eot');
+    src: url('fonts/Jost-Thin.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-Thin.woff2') format('woff2'),
+        url('fonts/Jost-Thin.woff') format('woff'),
+        url('fonts/Jost-Thin.ttf') format('truetype'),
+        url('fonts/Jost-Thin.svg#Jost-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-Italic';
+    src: url('fonts/Jost-Italic.eot');
+    src: url('fonts/Jost-Italic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-Italic.woff2') format('woff2'),
+        url('fonts/Jost-Italic.woff') format('woff'),
+        url('fonts/Jost-Italic.ttf') format('truetype'),
+        url('fonts/Jost-Italic.svg#Jost-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-MediumItalic';
+    src: url('fonts/Jost-MediumItalic.eot');
+    src: url('fonts/Jost-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-MediumItalic.woff2') format('woff2'),
+        url('fonts/Jost-MediumItalic.woff') format('woff'),
+        url('fonts/Jost-MediumItalic.ttf') format('truetype'),
+        url('fonts/Jost-MediumItalic.svg#Jost-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-SemiBold';
+    src: url('fonts/Jost-SemiBold.eot');
+    src: url('fonts/Jost-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-SemiBold.woff2') format('woff2'),
+        url('fonts/Jost-SemiBold.woff') format('woff'),
+        url('fonts/Jost-SemiBold.ttf') format('truetype'),
+        url('fonts/Jost-SemiBold.svg#Jost-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-LightItalic';
+    src: url('fonts/Jost-LightItalic.eot');
+    src: url('fonts/Jost-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-LightItalic.woff2') format('woff2'),
+        url('fonts/Jost-LightItalic.woff') format('woff'),
+        url('fonts/Jost-LightItalic.ttf') format('truetype'),
+        url('fonts/Jost-LightItalic.svg#Jost-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-SemiBoldItalic';
+    src: url('fonts/Jost-SemiBoldItalic.eot');
+    src: url('fonts/Jost-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-SemiBoldItalic.woff2') format('woff2'),
+        url('fonts/Jost-SemiBoldItalic.woff') format('woff'),
+        url('fonts/Jost-SemiBoldItalic.ttf') format('truetype'),
+        url('fonts/Jost-SemiBoldItalic.svg#Jost-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Jost-Regular';
+    src: url('fonts/Jost-Regular.eot');
+    src: url('fonts/Jost-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/Jost-Regular.woff2') format('woff2'),
+        url('fonts/Jost-Regular.woff') format('woff'),
+        url('fonts/Jost-Regular.ttf') format('truetype'),
+        url('fonts/Jost-Regular.svg#Jost-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
