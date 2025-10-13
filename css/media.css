@@ -6,6 +6,12 @@
     .menu-mid {flex: 0 1 270px;}
     .menu-lft,.menu-rgt{column-gap: 15px;}
     .menu-rgt li a ,.menu-lft li a{font-size: 16px;}
+
+    /* home */
+    .home-cnt {left: calc((100% - 1140px) / 2);}
+    .home-cnt h1{font-size: 75px;}
+    .home-cnt p,.harmony-sec p,.about-cnt p{font-size: 19px;}
+    .harmony-sec h2{font-size: 50px;}
 }
 
 @media (max-width: 1200px) {
@@ -18,11 +24,22 @@
     .m-menu{display: block;}
     .top-menu{padding: 17px 0;}
 
+    /* home */
+    .home-ban img{min-height: 450px;}
+    .home-cnt {left: calc((100% - 960px) / 2);}
+    .high-list{padding-top: 40px;}
+    .high-list .row{row-gap: 30px;}
+    .abt-bm{margin-top: 50px;}
+    .about{padding: 70px 0;}
+    .about-img {height: 100%;}
+    .about-img img{height: 100%;object-fit: cover;}
+    .abt-bm .about-cnt{padding-right: 30px;}
+    .abt-tp .about-cnt{padding-left: 30px;}
+    .cot-cnt{font-size: 40px;}
+
     /* booking */
     .inner-cnt h1{font-size: 65px;}
     .booking{padding: 60px 0;}
-
-
 
 }
 
@@ -30,7 +47,27 @@
 
 @media (max-width: 991px) {
 
-
+    /* home */
+    .home-cnt {left: calc((100% - 720px) / 2);max-width: 700px;}
+    .home-cnt h1{font-size: 60px;}
+    .home-cnt p,.harmony-sec p,.about-cnt p{font-size: 18px;}
+    .home-cnt a {font-size: 17px;line-height: 17px;}
+    .about{padding: 60px 0;}
+    .about h2{font-size: 50px;}
+    .abt-bm .about-cnt{padding-right: 0px;}
+    .abt-tp .about-cnt{padding-left: 0px;}
+    .abt-tp, .abt-bm{row-gap: 20px;}
+    .abt-bm > div:nth-child(1){order: 1;}
+    .abt-bm > div:nth-child(2){order: 0;}
+    .abt-bm{margin-top: 0;}
+    .highlights{padding: 70px 0;}
+    .harmony-sec{padding: 320px 20px 50px;}
+    .harmony-img{max-width: 300px;margin-bottom: -280px;}
+    .harmony-sec h2{font-size: 40px;}
+    .high-list {padding-top: 30px;}
+    .high-img {width: 70px;height: 70px;}    
+    .high-img img {width: 35px;height: 35px;}
+    .high-list > div > div:first-child .high-img img {width: 45px;height: 45px;}
     
     /* booking */
     .inner-cnt h1{font-size: 55px;}
@@ -52,6 +89,15 @@
     /* footer */
     footer{padding: 20px 0;}
     .footer-logo{max-width: 280px;margin-bottom: 10px;}
+
+    /* home */
+    .home-cnt{left:0;padding: 0 15px;}
+    .home-cnt h1 {font-size: 55px;}
+    .home-cnt p,.harmony-sec p,.about-cnt p{font-size: 16px;}
+    .home-cnt a {font-size: 16px;line-height:16px;}
+    .about {padding: 50px 0;}
+    .about h2 {font-size: 40px;}
+    .cot-cnt {font-size: 30px;}
 
     /* booking */
     .ban-img{min-height: 250px;}
@@ -80,13 +126,23 @@
     .menu-mid {flex: 0 1 230px;}
     .mobile-menu{top:75px;height: calc(100vh - 75px);}
     .menu-rgt {column-gap: 10px;}
+
     /* footer */
     .footer-logo { max-width: 230px;}
     .footer-scl-lnks ul li a{width: 30px;height: 30px;}
 
+    /* home */
+    .home-cnt h1 {font-size: 42px;}
+    .high-img {width: 60px;height: 60px;}    
+    .high-img img {width: 30px;height: 30px;}
+    .harmony-sec h2 {font-size: 35px;padding: 0 15px;}
+    .harmony-sec p{padding: 0 15px;}
+    .about h2 {font-size: 35px;}
+    .highlights {padding: 60px 0;}
+    .harmony-sec {padding: 250px 0px 40px;}
+    .harmony-img {max-width: 240px;margin-bottom: -230px;}
+    .high-cnt h4 {font-size: 17px;}
 
-
-    
     /* booking */
     .inner-cnt span {font-size: 14px;}
     .inner-cnt h1 {font-size: 32px;}
@@ -112,9 +168,10 @@
     .menu-mid {flex: 0 1 200px;}
     .menu-rgt li .book-btn a {font-size: 14px;padding: 8px 17px;}
     .mobile-menu{top:70px;height: calc(100vh - 70px);}
-        /* footer */
-        .footer-logo { max-width: 200px;}
-        footer p{font-size: 13px;}
+
+    /* footer */
+    .footer-logo { max-width: 200px;}
+    footer p{font-size: 13px;}
 
 }
 
@@ -131,7 +188,6 @@
     /* footer */
     .footer-logo { max-width: 170px;}
 
-    
     /* booking */
     .content-wrapper{padding: 0 20px;}
     .reservation,#fran-form{padding: 20px;}
