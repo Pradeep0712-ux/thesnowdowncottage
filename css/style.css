@@ -165,5 +165,49 @@ span.error-msg{display: block; width:100%; text-align: left;color:red;font-famil
 .daterangepicker:before,.daterangepicker:after{display: none;}
 
 
+/* Gallery */
+section.gallery-section {padding: 60px 0px;position: relative;display: block;z-index: 0;}
+section h2 {font-size: 65px;line-height: normal;}
+.img-content {position: relative;display: block;cursor: pointer;}
+.img-content::before {content: '';position: absolute;background: #00000080;width: 95%;height: 95%;inset: 0;scale: 0;display: block;margin: auto;transition: all 0.5s ease;}
+.img-content:hover::before {scale: 1;}
+.img-content:hover .icon {opacity: 1;}
+.img-content .icon {position: absolute;max-width: 35px;top: 0;right: 0;bottom: 0;left: 0;display: block;margin: auto;filter: invert(1);opacity: 0;transition: all 1s ease;}
+#lightcase-info {display: none !important;}
+.lightcase-icon-close, .lightcase-icon-prev, .lightcase-icon-next, .lightcase-icon-pause, .lightcase-icon-play {cursor: pointer;}
+.video-section iframe {width: 100%;height: 400px;}
+
+/* Astronomy */
+.pt-60 {padding-top: 60px;}
+section.astronomy-section {padding: 40px 0px;position: relative;display: block;z-index: 0;}
+.astronomy-section p.para {font-size: 24px;line-height: normal;}
+.inner-banner::before {background: linear-gradient(360deg, #00000087, transparent);content: '';position: absolute;height: 100%;width: 100%;}
+.astronomy-section iframe {width: 100%;height: 500px;}
+.review {border-left: 5px solid #e26143;}
+.review p{font-size: 20px;line-height: normal;margin: 20px 0px;padding-left: 50px;font-style: italic;color: #767676;}
+.astronomy-section .img-content img.gallery {height: 400px;width: 400px;display: block;margin: auto;object-fit: cover;}
+.astronomy-section .img-content::before {width: 90%;height: 90%;}
+
+
+/* Contact */
+section.contact-section {padding: 40px 0px;position: relative;display: block;z-index: 0;}
+.contact-section h2 {margin-bottom: 20px;}
+.contact-section p.contact-para {font-size: 25px;line-height: normal;font-weight: 100;font-style: normal;}
+.icon-section {padding: 30px 0px;position: relative;display: flex;flex-direction: column;gap: 40px;}
+.flex-icon {display: flex;align-items: center;gap: 25px;}
+.flex-icon .icon {height: 75px;width: 75px;border: 2px solid #e26143;padding: 15px;border-radius: 50%;display: flex;align-items: center;justify-content: center;}
+.flex-icon .icon img {filter: brightness(0) saturate(100%) invert(54%) sepia(80%) saturate(2553%) hue-rotate(332deg) brightness(91%) contrast(94%);max-width: 35px;}
+.cont h3 {color: #000;font-family: 'Jost-Regular';font-size: 20px;margin-bottom: 10px;}
+.cont h4 {display: block;max-width: fit-content;color: #4e4e4e;font-family: 'Jost-Regular';font-size: 20px;}
+.card.contact-card {padding: 50px;border-radius: 0px;border: 0px;background: #eeebea;}
+.contact-div {margin-top: 15px;}
+.contact-div .form-label {text-transform: uppercase;font-size: 16px;margin-bottom: 5px;}
+.contact-div .form-control {padding: 20px;border-radius: 0px;border: 1px solid #cbcbcb;box-shadow: none !important;color: #363636;}
+.contact-div .form-control::placeholder {color: #cbcbcb;}
+.contact-div textarea.form-control {height: 110px;}
+.contact-div.bttn .btn.btn-primary {display: block;padding: 12px 30px;border-radius: 0px;background: #e26143;border-color: #e26143;transition: all 0.5s ease;}
+.contact-div.bttn .btn.btn-primary:hover {background: #000;border-color: #000;}
+
+
 
 

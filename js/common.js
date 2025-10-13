@@ -1,3 +1,19 @@
+// Gallery light case
+$(document).ready(function($) {
+  $('a[data-rel^=lightcase]').lightcase({
+      maxWidth: 1200,
+      maxHeight: 800,
+      transition: 'fade',
+      showTitle: true,
+      showCaption: true,
+      slideshow: true,
+      swipe: true,
+      showSequenceInfo: true
+  });
+});
+
+
+
 // Input Box Placeholder
 function fnremove(arg, val) {
 	if (arg.value == '') { arg.value = val }
