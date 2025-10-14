@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1" >
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
+	<title>The Snowdon Cottage | Holiday Cottage in Snowdonia National Park</title>
+    <!--CSS Start-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/fonts.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/daterange.css" />
+    <link rel="stylesheet" href="assets/css/pikaday.css" />
+    <link rel="stylesheet" href="assets/css/mobilemenu.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!--Common Script-->
+    <script type="text/javascript" src="assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.sticky.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>    
+    <!--Responsive CSS-->
+    <link rel="stylesheet" href="assets/css/media.css" />
+</head>
+
+<body>
+    <div id="page">
+
+        <!-- mobile menu starts -->
+        <div id="mobile-menu"></div>
+        <!-- mobile menu ends -->
+
+        <!-- header starts -->
+        <div id="header"></div>
+        <!-- header ends -->
+
+        <!-- inner-banner starts -->
+        <div class="inner-banner">
+            <img src="assets/images/home-cottage-2.png" alt="" class="img-fluid ban-img">
+            <div class="container">
+                <div class="inner-cnt">
+                    <span>Booking</span>
+                    <h1>Book Your Stay, Effortlessly</h1>
+                </div>
+            </div>
+        </div>
+        <!-- inner banner ends -->
+
+        <!-- booking starts -->
+        <div class="booking">
+            <div class="container">
+                <!-- booking list -->
+                <div class="booking-list">
+                    <div class="reservation">
+                        <div class="res-main">
+                            <div class="res-dates">
+                                <ul>
+                                    <li class="start-date">
+                                        <label>Check-In</label>
+                                        <input type="text" class="b-frm"  name="value_from_start_date" data-datepicker="separateRange" />
+                                    </li>
+                                    <li class="end-date">
+                                        <label>Check-out</label>
+                                        <input type="text" class="b-frm"  name="value_from_end_date" data-datepicker="separateRange"/>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="res-guests">
+                                <label>Guests</label>
+                                <div class="gdropdown">
+                                <div class="gdropdown-menu">
+                                    <div class="gdropdown-row">
+                                    <div class="glabel">
+                                        Adults <br><small>Age 13+</small>
+                                    </div>
+                                    <div class="counter">
+                                        <button class="decrease" data-type="adults">−</button>
+                                        <input type="text" id="adults-input" value="1" readonly>
+                                        <button class="increase" data-type="adults">+</button>
+                                    </div>
+                                    </div>
+                                    <div class="gdropdown-row">
+                                    <div class="glabel">
+                                        Children <br><small>Ages 2–12</small>
+                                    </div>
+                                    <div class="counter">
+                                        <button class="decrease" data-type="children">−</button>
+                                        <input type="text" id="children-input" value="0" readonly>
+                                        <button class="increase" data-type="children">+</button>
+                                    </div>
+                                    </div>
+                                    <div class="gdropdown-row">
+                                    <div class="glabel">
+                                        Infants <br><small>Under 2</small>
+                                    </div>
+                                    <div class="counter">
+                                        <button class="decrease" data-type="infants">−</button>
+                                        <input type="text" id="infants-input" value="0" readonly>
+                                        <button class="increase" data-type="infants">+</button>
+                                    </div>
+                                    </div>
+                                </div>
+                                <button type="button" class="gdropdown-btn b-frm">
+                                    <span id="guest-summary">0 guests</span>
+                                </button>
+                                </div>
+                            </div>
+                            <div class="res-btn">
+                                <a href="javascript:void(0);">Apply</a>
+                            </div>
+                        </div>
+                        <div class="res-info text-center">
+                            <p>"A minimum booking of 7 days is required, with check-in starting on Saturday and check-out on the following Saturday morning. After you submit your details, we’ll verify them and send you a payment link to confirm your booking."</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- booking list ends -->
+                <!-- booking form starts -->
+                <div class="booking-form">
+                    <div class="book-form">
+                        <form action="" method="" id="fran-form" class="form-wrapper" autocomplete="off">
+                            <div class="input-group">
+                            <input type="text" name="firstName" class="data-input" id="firstName-input" placeholder="First Name*" onfocus="this.dataset.placeholder=this.placeholder;this.placeholder='';" onblur="this.placeholder=this.dataset.placeholder">
+                            <span class="error-msg"></span>
+                            </div>
+                            <div class="input-group">
+                            <input type="text" name="lastName" class="data-input" id="lastName-input" placeholder="Last Name*" onfocus="this.dataset.placeholder=this.placeholder;this.placeholder='';" onblur="this.placeholder=this.dataset.placeholder">
+                            <span class="error-msg"></span>
+                            </div>
+                            <div class="input-group">
+                            <input type="email" name="email" class="data-input" id="email-input" placeholder="Email*" onfocus="this.dataset.placeholder=this.placeholder;this.placeholder='';" onblur="this.placeholder=this.dataset.placeholder">
+                            <span class="error-msg"></span>
+                            </div>
+                            <div class="input-group">
+                            <input type="text" name="phone" class="data-input" id="phone-input" placeholder="Phone*" onfocus="this.dataset.placeholder=this.placeholder;this.placeholder='';" onblur="this.placeholder=this.dataset.placeholder">
+                            <span class="error-msg"></span>
+                            </div>
+                            <div class="input-group">
+                            <textarea type="text" name="Details" class="data-input details" id="details-input" placeholder="Details" onfocus="this.dataset.placeholder=this.placeholder;this.placeholder='';" onblur="this.placeholder=this.dataset.placeholder"></textarea>
+                            <span class="error-msg"></span>
+                            </div>
+                            <button type="submit" class="submit-btn" id="submitBtn">Send</button>
+                        </form>
+                    </div>
+
+
+                    <div class="book-rules">
+                        <ul>
+                            <li>A week runs from Saturday to Saturday</li>
+                            <li>Our terms and conditions apply to all bookings.</li>
+                            <li>Please contact us to make a booking and we will advise how to do so.</li>
+                            <li>An additional £50 may apply to the above charges in the form of a refundable security deposit.</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- booking form ends -->
+            </div>
+        </div>
+        <!-- booking ends -->
+
+        <!-- footer starts -->
+        <div id="footer"></div>
+        <!-- footer ends -->
+
+    </div>
+    
+    <!-- script section -->
+    <script type="text/javascript" src="assets/js/moment.min.js"></script>
+    <script type="text/javascript" src="assets/js/daterangepicker.min.js"></script>
+    <script type="text/javascript" src="assets/js/pikaday.min.js"></script>
+    <script type="text/javascript" src="assets/js/daterange.js"></script>
+    <script type="text/javascript" src="assets/js/common.js"></script>
+</body>
+
+</html>
