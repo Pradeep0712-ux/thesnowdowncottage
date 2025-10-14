@@ -1,6 +1,6 @@
 body.over { overflow: hidden;}
 /* mobile menu css */
-.mobile-menu { position:fixed; top:87px; width:100%; z-index: 99;  height: calc(100vh - 87px); overflow:auto;opacity: 0; visibility: hidden; transition: all 0.2s ease;display: none;padding:30px 0;background: url(https://thesnowdoncottage.co.uk/wp-content/uploads/2020/07/bg-test.png); } 
+.mobile-menu { position:fixed; top:87px; width:100%; z-index: 99;  height: calc(100vh - 87px); overflow:auto;opacity: 0; visibility: hidden; transition: all 0.2s ease;padding:30px 0;background: url(https://thesnowdoncottage.co.uk/wp-content/uploads/2020/07/bg-test.png); } 
 body.over .mobile-menu{display: block;}
 .m-menu img { width: 20px;}   
 .mobile-menu .mob-main { float:left; width:100%;}

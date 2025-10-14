@@ -12,6 +12,10 @@
     .home-cnt h1{font-size: 75px;}
     .home-cnt p,.harmony-sec p,.about-cnt p{font-size: 19px;}
     .harmony-sec h2{font-size: 50px;}
+
+    /* Contact */
+    section.contact-section h2 , .gallery-section h2{font-size: 55px;}
+    .contact-section p.contact-para {font-size: 22px;}
 }
 
 @media (max-width: 1200px) {
@@ -42,15 +46,16 @@
     .booking{padding: 60px 0;}
 
     /* astronomy , contact , gallery */
-    .astronomy-section p.para {font-size: 23px;}
+    .astronomy-section p.para {font-size: 20px;}
     .review p {font-size: 18px;}
-    .contact-section h2 {font-size: 55px;}
+    .contact-section h2 , .gallery-section h2 {font-size: 50px;}
     .contact-section p.contact-para {font-size: 21px;}
     .flex-icon {gap: 20px;}
     .flex-icon .icon {width: 70px;height: 70px;}
     .cont h3 {font-size: 19px;}
     .cont h4 {font-size: 19px;}
     .card.contact-card {padding: 30px;}
+    .cont h3 {font-size: 18px; margin-bottom: 3px;}
     .contact-div .form-label {font-size: 15px;}
 
 }
@@ -88,11 +93,19 @@
     .res-btn{flex:0 1 100%}
 
     /* astronomy , contact , gallery */
-    section h2 {font-size: 55px;}
-    section.contact-section {padding: 20px 0px;}
-    section.astronomy-section {padding: 20px 0px;}
-    section.gallery-section {padding: 20px 0px;}
-    .astronomy-section p.para {font-size: 21px;}
+    .gallery-section h2{font-size: 45px;}
+    section.contact-section {padding: 40px 0px 50px;}
+    section.astronomy-section {padding: 30px 0px 40px;}
+    section.gallery-section {padding: 40px 0px;}
+    section.contact-section h2{font-size: 45px;margin-bottom: 10px;}
+    .contact-section p.contact-para {font-size: 19px;}
+    .astronomy-section p.para {font-size: 19px;}
+    .flex-icon .icon{width: 50px;height: 50px;}
+    .icon-section{gap:20px}
+    .flex-icon .icon img{max-width: 25px;}
+    .flex-icon {gap: 15px;}
+    .cont h3{font-size: 16px;margin-bottom: 0;}
+    .cont h4{font-size: 16px;line-height: 22px;}
 
 
 }
@@ -110,11 +123,11 @@
     .footer-logo{max-width: 280px;margin-bottom: 10px;}
 
     /* home */
-    .home-cnt{left:0;padding: 0 15px;}
+    .home-cnt{left: calc((100% - 540px) / 2);padding: 0 15px;}
     .home-cnt h1 {font-size: 55px;}
     .home-cnt p,.harmony-sec p,.about-cnt p{font-size: 16px;}
     .home-cnt a {font-size: 16px;line-height:16px;}
-    .about {padding: 50px 0;}
+    .about {padding: 40px 0;}
     .about h2 {font-size: 40px;}
     .cot-cnt {font-size: 30px;}
 
@@ -131,10 +144,13 @@
     .gdropdown-menu{max-width: 320px;}
     
     /* astronomy , contact , gallery */
-    section h2 {font-size: 40px;}
+    .gallery-section h2 {font-size: 40px;}
     .img-content {text-align: center;}
-    .astronomy-section p.para {font-size: 19px;}
-    .review p {padding-left: 40px;}
+    .astronomy-section p.para {font-size: 17px;}
+    .pt-60{padding-top: 40px;}
+    .review p {padding-left: 40px;font-size: 17px;}
+    section.contact-section h2{font-size: 32px;}
+    .contact-section p.contact-para {font-size: 18px;}
 
 
 }
@@ -158,6 +174,7 @@
     .footer-scl-lnks ul li a{width: 30px;height: 30px;}
 
     /* home */
+    .home-cnt{left: 0;}
     .home-cnt h1 {font-size: 42px;}
     .high-img {width: 60px;height: 60px;}    
     .high-img img {width: 30px;height: 30px;}
@@ -186,21 +203,17 @@
     .counter input {font-size: 15px;}
 
     /* astronomy , contact , gallery */
-    section h2 {font-size: 27px;scale: 1.5;}
-    .astronomy-section p.para {font-size: 16px;}
+    .gallery-section h2 {font-size: 35px;}
     .astronomy-section iframe {height: 300px;}
     .review p {padding-left: 20px;font-size: 16px;}
     .astronomy-section .img-content img.gallery {height: 250px;}
     .inner-cnt h1 {font-size: 38px;}
     .ban-img {height: 240px;}
-    .contact-section h2 {scale: 1;font-size: 35px;}
-    .contact-section p.contact-para {font-size: 20px;}
-    .flex-icon .icon {height: 60px;width: 60px;}
-    .cont h3 {margin-bottom: 5px;font-size: 18px;}
-    .cont h4 {font-size: 18px;}
+    .contact-section h2 {font-size: 35px;}
     .card.contact-card {padding: 20px;}
     .contact-div .form-control {padding: 15px;}
     .contact-div .form-label {font-size: 14px;}
+    section.contact-section h2 {font-size: 32px;}
     
 
 }

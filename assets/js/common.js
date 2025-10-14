@@ -1,16 +1,67 @@
-// Gallery light case
-$(document).ready(function($) {
-  $('a[data-rel^=lightcase]').lightcase({
-      maxWidth: 1200,
-      maxHeight: 800,
-      transition: 'fade',
-      showTitle: true,
-      showCaption: true,
-      slideshow: true,
-      swipe: true,
-      showSequenceInfo: true
+$(document).ready(function () {
+
+  // Load header, footer, and mobile menu
+  $("#header").load("includes/header.html", function () {
+    // Run sticky header (after header loaded)
+    $("header .top-menu").sticky({ topSpacing: 0 });
+
+    // After header & mobile menu are loaded, initialize menu
+    initializeMenu();
   });
+
+  $("#mobile-menu").load("includes/mobilemenu.html", function () {
+    // Initialize menu once mobile menu is loaded too
+    initializeMenu();
+  });
+
+  $("#footer").load("includes/footer.html", function () {
+    // Auto year update inside footer
+    $(".year").text(new Date().getFullYear());
+  });
+
+  // Function to initialize menu functionality
+  function initializeMenu() {
+    // Run only if both header and mobile menu exist
+    if ($(".m-menu").length && $(".mobile-menu").length) {
+
+      // Mobile Menu Toggle
+      $(".m-menu a").off("click").on("click", function (e) {
+        e.preventDefault(); // prevent default link action
+        $(".m-menu").toggleClass("open");
+        $(".mob-nav").toggleClass("slow");
+        $("body").toggleClass("over");
+    });
+    
+
+      // Set Active Link
+      const currentPage = window.location.pathname.split("/").pop() || "index.html";
+      $(".menu a, .mobile-menu a").each(function () {
+        const linkPage = $(this).attr("href").split("/").pop();
+        if (linkPage === currentPage) {
+          $(this).addClass("active");
+        }
+      });
+    }
+  }
+
 });
+
+
+
+
+// // Gallery light case
+// $(document).ready(function($) {
+//   $('a[data-rel^=lightcase]').lightcase({
+//       maxWidth: 1200,
+//       maxHeight: 800,
+//       transition: 'fade',
+//       showTitle: true,
+//       showCaption: true,
+//       slideshow: true,
+//       swipe: true,
+//       showSequenceInfo: true
+//   });
+// });
 
 
 
@@ -22,23 +73,7 @@ function fnshow(arg, val) {
 	if (arg.value == val) { arg.value = '' }
 }
 
-$(document).ready(function () {
-	// Sticky Header		
-	$("header .top-menu").sticky({ topSpacing: 0 });
 
-	//Mobile Menu Show and Hide
-	$(".m-menu").click(function () {
-		$(this).toggleClass('open');
-		$(".mobile-menu").toggleClass('slow');
-		$('body').toggleClass('over');
-	});
-
-	$(function() {
-		$('.year').text(new Date().getFullYear());
-	});
-
-
-});
 
 // booking page
 $(document).ready(function () {
@@ -146,7 +181,7 @@ $(document).ready(function () {
     updateButtons();
 
     
-    //***************************** form valodation *****************************
+    //***************************** booking form validation *****************************
     const $form = $("#fran-form");
     const $firstName = $("#firstName-input");
     const $lastName = $("#lastName-input");
@@ -246,9 +281,91 @@ $(document).ready(function () {
     }
 
 
+    // ***************************** Contact form validation *****************************
+    // Contact Form Validation
+    const $contactForm = $("#contact-form");
+    const $contactName = $("#contact-name");
+    const $contactEmail = $("#contact-email");
+    const $contactMessage = $("#contact-message");
+
+    $contactForm.on("submit", function(e) {
+        if (!validateContactForm()) {
+            e.preventDefault();
+        }
+    });
+
+    function validateContactForm() {
+        let success = true;
+        const nameVal = $contactName.val().trim();
+        const emailVal = $contactEmail.val().trim();
+        const messageVal = $contactMessage.val().trim();
+
+        // Name
+        if (nameVal === "") {
+            success = false;
+            setError($contactName, "Please enter your name*");
+        } else if (/\d/.test(nameVal)) {
+            success = false;
+            setError($contactName, "Name cannot contain numbers*");
+        } else {
+            setSuccess($contactName);
+        }
+
+        // Email
+        if (emailVal === "") {
+            success = false;
+            setError($contactEmail, "Email is required*");
+        } else if (!validateEmail(emailVal)) {
+            success = false;
+            setError($contactEmail, "Please enter a valid Email*");
+        } else {
+            setSuccess($contactEmail);
+        }
+
+        // Message (optional, remove if required)
+        if (messageVal === "") {
+            success = false;
+            setError($contactMessage, "Please enter a message*");
+        } else {
+            setSuccess($contactMessage);
+        }
+
+        return success;
+    }
+
+    // Reuse the same helper functions from your previous code
+    function setError($element, message) {
+        const $inputGroup = $element.parent();
+        const $errorElement = $inputGroup.find(".error-msg");
+        $errorElement.text(message);
+        $inputGroup.addClass("error").removeClass("success");
+    }
+
+    function setSuccess($element) {
+        const $inputGroup = $element.parent();
+        const $errorElement = $inputGroup.find(".error-msg");
+        $errorElement.text("");
+        $inputGroup.addClass("success").removeClass("error");
+    }
+
+    function validateEmail(email) {
+        return String(email).toLowerCase().match(
+            /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        );
+    }
 
 });
 
-
-
-
+// Gallery light case
+$(document).ready(function($) {
+  $('a[data-rel^=lightcase]').lightcase({
+      maxWidth: 1200,
+      maxHeight: 800,
+      transition: 'fade',
+      showTitle: true,
+      showCaption: true,
+      slideshow: true,
+      swipe: true,
+      showSequenceInfo: true
+  });
+});
