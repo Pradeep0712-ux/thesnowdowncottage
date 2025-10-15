@@ -58,6 +58,12 @@
     .cont h3 {font-size: 18px; margin-bottom: 3px;}
     .contact-div .form-label {font-size: 15px;}
 
+    /* cottage */
+    .cottage p{font-size: 18px;}
+
+    /* area */
+    p.area-para {font-size: 17px;}
+
 }
 
 
@@ -107,6 +113,13 @@
     .cont h3{font-size: 16px;margin-bottom: 0;}
     .cont h4{font-size: 16px;line-height: 22px;}
 
+    /* area */
+    .ord-1{order: 0;}
+    .ord-2{order:1;}
+    .ord-3{order:3;}
+    .ord-4{order:2;}
+    .ord-5{order:4;}
+
 
 }
 
@@ -151,6 +164,16 @@
     .review p {padding-left: 40px;font-size: 17px;}
     section.contact-section h2{font-size: 32px;}
     .contact-section p.contact-para {font-size: 18px;}
+
+    /* cottage */
+    .cottage {padding: 40px 0;}
+    .cottage p{font-size: 17px;}
+
+    /* area */
+    p.area-para {font-size: 16px;}
+
+
+
 
 
 }
