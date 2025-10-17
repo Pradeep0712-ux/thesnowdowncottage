@@ -15,7 +15,6 @@
 
     /* Contact */
     section.contact-section h2 , .gallery-section h2{font-size: 55px;}
-    .contact-section p.contact-para {font-size: 22px;}
 }
 
 @media (max-width:1366px){
@@ -56,7 +55,6 @@
     .astronomy-section p.para {font-size: 20px;}
     .review p {font-size: 18px;}
     .contact-section h2 , .gallery-section h2 {font-size: 50px;}
-    .contact-section p.contact-para {font-size: 21px;}
     .flex-icon {gap: 20px;}
     .flex-icon .icon {width: 70px;height: 70px;}
     .cont h3 {font-size: 19px;}
@@ -173,7 +171,8 @@
     .pt-60{padding-top: 40px;}
     .review p {padding-left: 40px;font-size: 17px;}
     section.contact-section h2{font-size: 32px;}
-    .contact-section p.contact-para {font-size: 18px;}
+    .contact-section p.contact-para {font-size: 17px;}
+    .contact-card{padding: 30px;}
 
     /* cottage */
     .cottage {padding: 40px 0;}
