@@ -1,6 +1,6 @@
 body.over { overflow: hidden;}
 /* mobile menu css */
-.mobile-menu { position:fixed; top:87px; width:100%; z-index: 99;  height: calc(100vh - 87px); overflow:auto;opacity: 0; visibility: hidden; transition: all 0.2s ease;padding:30px 0;background: url(https://thesnowdoncottage.co.uk/wp-content/uploads/2020/07/bg-test.png); } 
+.mobile-menu { position:fixed; top:87px; width:100%; z-index: 99;  height: calc(100vh - 87px); overflow:auto;opacity: 0; visibility: hidden; transition: all 0.2s ease;padding:30px 0;background: #fff; } 
 body.over .mobile-menu{display: block;}
 .m-menu img { width: 20px;}   
 .mobile-menu .mob-main { float:left; width:100%;}
@@ -22,15 +22,15 @@ body.over .mobile-menu{display: block;}
 .m-menu.open span:nth-child(2) { width: 0%; opacity: 0;}
 .m-menu.open span:nth-child(3) { -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); top: 21px; left: 4px; background: #000; }
 
-.mob-men ul li{margin-bottom: 10px;}
-.mob-men ul li a{font-size: 20px;line-height: 24px;letter-spacing: 0.35px;color: #fff;font-family: var(--Jost-Medium);}
+.mob-men ul li{margin-bottom: 15px;}
+.mob-men ul li a{font-size: 22px;line-height: 24px;letter-spacing: 0.35px;color: #000;font-family: var(--Jost-Medium);}
 .mob-men ul li a:hover{color: #000;}
 
-.mob-btm-lnk { display: inline-block; width: 100%; text-align: center;padding: 15px 30px 30px;border-top:1px solid #fff;position: fixed;bottom: 0;left: 0;z-index: 9;} 
+.mob-btm-lnk { display: inline-block; width: 100%; text-align: center;padding: 15px 30px 30px;border-top:1px solid #000;position: fixed;bottom: 0;left: 0;z-index: 9;} 
 .mob-addr-details { width: 100%; padding-bottom: 6px;} 
 .mob-addr-details ul li { width: 100%;margin-bottom: 5px;}
 .mob-addr-details ul li:last-child{margin: 0;}
-.mob-addr-details ul li a { color: #ffffff; transition:all .5s ease;font-family: var(--Jost-Medium);font-size: 16px; line-height: 24px; color: #ffffff; letter-spacing: 0.35px;}
+.mob-addr-details ul li a { color: #000; transition:all .5s ease;font-family: var(--Jost-Medium);font-size: 16px; line-height: 24px;  letter-spacing: 0.35px;}
 .mob-addr-details ul li a:hover { opacity: 0.7;text-decoration: underline;} 
 
 .mob-nav .mob-scl-lnks{width: 100%;display: flex;justify-content: center;margin-top: 12px;align-items: center;}  

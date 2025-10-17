@@ -40,6 +40,9 @@
     .abt-bm .about-cnt{padding-right: 30px;}
     .abt-tp .about-cnt{padding-left: 30px;}
     .cot-cnt{font-size: 40px;}
+    .about h2 {font-size: 40px;}
+    .test-cnt h3{font-size: 20px;}
+    .testimonial {padding: 0 20px 60px;}
 
     /* booking */
     .inner-cnt h1{font-size: 65px;}
@@ -74,9 +77,8 @@
     .home-cnt {left: calc((100% - 720px) / 2);max-width: 700px;}
     .home-cnt h1{font-size: 60px;}
     .home-cnt p,.harmony-sec p,.about-cnt p{font-size: 18px;}
-    .home-cnt a {font-size: 17px;line-height: 17px;}
+    .home-cnt a,.testi-btn a {font-size: 17px;line-height: 17px;}
     .about{padding: 60px 0;}
-    .about h2{font-size: 50px;}
     .abt-bm .about-cnt{padding-right: 0px;}
     .abt-tp .about-cnt{padding-left: 0px;}
     .abt-tp, .abt-bm{row-gap: 20px;}
@@ -84,13 +86,14 @@
     .abt-bm > div:nth-child(2){order: 0;}
     .abt-bm{margin-top: 0;}
     .highlights{padding: 70px 0;}
-    .harmony-sec{padding: 320px 20px 50px;}
-    .harmony-img{max-width: 300px;margin-bottom: -280px;}
+    .harmony-img{max-width: 300px;}
     .harmony-sec h2{font-size: 40px;}
     .high-list {padding-top: 30px;}
     .high-img {width: 70px;height: 70px;}    
     .high-img img {width: 35px;height: 35px;}
     .high-list > div > div:first-child .high-img img {width: 45px;height: 45px;}
+    .test-cnt h3 {font-size: 19px;}
+    .test-slide .swiper-container {padding: 30px 20px 20px;}
     
     /* booking */
     .inner-cnt h1{font-size: 55px;}
@@ -139,10 +142,12 @@
     .home-cnt{left: calc((100% - 540px) / 2);padding: 0 15px;}
     .home-cnt h1 {font-size: 55px;}
     .home-cnt p,.harmony-sec p,.about-cnt p{font-size: 16px;}
-    .home-cnt a {font-size: 16px;line-height:16px;}
+    .home-cnt a,.testi-btn a {font-size: 16px;line-height:16px;}
     .about {padding: 40px 0;}
-    .about h2 {font-size: 40px;}
+    .about h2 {font-size: 30px;}
     .cot-cnt {font-size: 30px;}
+    .test-cnt h3 {font-size: 17px;}
+    .test-cnt span{font-size: 16px;}
 
     /* booking */
     .ban-img{min-height: 250px;}
@@ -190,7 +195,7 @@
     /* header */
     .menu-mid {flex: 0 1 230px;}
     .mobile-menu{top:75px;height: calc(100vh - 75px);}
-    .menu-rgt {column-gap: 10px;}
+    .menu-rgt {column-gap: 15px;}
 
     /* footer */
     .footer-logo { max-width: 230px;}
@@ -203,10 +208,9 @@
     .high-img img {width: 30px;height: 30px;}
     .harmony-sec h2 {font-size: 35px;padding: 0 15px;}
     .harmony-sec p{padding: 0 15px;}
-    .about h2 {font-size: 35px;}
+    .about h2 {font-size: 30px;}
     .highlights {padding: 60px 0;}
-    .harmony-sec {padding: 250px 0px 40px;}
-    .harmony-img {max-width: 240px;margin-bottom: -230px;}
+    .harmony-img {max-width: 240px;}
     .high-cnt h4 {font-size: 17px;}
 
     /* booking */
@@ -262,7 +266,6 @@
     .m-menu {width:25px;}
     .m-menu.open span:nth-child(3) {top:18px;}
     .menu-rgt li .book-btn a {font-size:13px; padding:6px 11px;}
-    .menu-rgt {column-gap:5px;}
     .mobile-menu{top:66px;height: calc(100vh - 66px);}
     
     /* footer */
@@ -275,6 +278,7 @@
     #fran-form .submit-btn {padding: 9px 30px;}
     .book-rules ul li{font-size: 15px;line-height: 24px;}
     .datepickers-container .datepicker{width: 200px;}
+    .about h2 {font-size: 28px;}
     
     
 }

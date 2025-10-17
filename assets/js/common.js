@@ -364,7 +364,7 @@ $(document).ready(function($) {
       transition: 'fade',
       showTitle: true,
       showCaption: true,
-      slideshow: true,
+      slideshow: false,
       swipe: true,
       showSequenceInfo: true
   });
