@@ -23,7 +23,7 @@ body.over .mobile-menu{display: block;}
 .m-menu.open span:nth-child(3) { -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); top: 21px; left: 4px; background: #000; }
 
 .mob-men ul li{margin-bottom: 15px;}
-.mob-men ul li a{font-size: 22px;line-height: 24px;letter-spacing: 0.35px;color: #000;font-family: var(--Jost-Medium);}
+.mob-men ul li a{font-size: 25px;line-height: 24px;letter-spacing: 0.35px;color: #000;font-family: var(--Jost-Medium);width: 100%;display: inline-block;}
 .mob-men ul li a:hover{color: #000;}
 
 .mob-btm-lnk { display: inline-block; width: 100%; text-align: center;padding: 15px 30px 30px;border-top:1px solid #000;position: fixed;bottom: 0;left: 0;z-index: 9;} 
