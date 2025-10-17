@@ -9,7 +9,7 @@
 
     /* home */
     .home-cnt {left: calc((100% - 1140px) / 2);}
-    .home-cnt h1{font-size: 75px;}
+    .home-cnt h1{font-size: 65px;}
     .home-cnt p,.harmony-sec p,.about-cnt p{font-size: 19px;}
     .harmony-sec h2{font-size: 50px;}
 
@@ -19,6 +19,7 @@
 
 @media (max-width:1366px){
     p.area-para {font-size: 18px;}
+    .about h2 {font-size: 35px;}
 }
 
 @media (max-width: 1200px) {
@@ -43,7 +44,6 @@
     .abt-bm .about-cnt{padding-right: 30px;}
     .abt-tp .about-cnt{padding-left: 30px;}
     .cot-cnt{font-size: 40px;}
-    .about h2 {font-size: 40px;}
     .test-cnt h3{font-size: 20px;}
     .testimonial {padding: 0 20px 60px;}
 
@@ -78,7 +78,7 @@
 
     /* home */
     .home-cnt {left: calc((100% - 720px) / 2);max-width: 700px;}
-    .home-cnt h1{font-size: 60px;}
+    .home-cnt h1{font-size: 55px;}
     .home-cnt p,.harmony-sec p,.about-cnt p{font-size: 18px;}
     .home-cnt a,.testi-btn a {font-size: 17px;line-height: 17px;}
     .about{padding: 60px 0;}
@@ -97,6 +97,7 @@
     .high-list > div > div:first-child .high-img img {width: 45px;height: 45px;}
     .test-cnt h3 {font-size: 19px;}
     .test-slide .swiper-container {padding: 30px 20px 20px;}
+    .about h2 {font-size: 30px;}
     
     /* booking */
     .inner-cnt h1{font-size: 55px;}
@@ -147,7 +148,7 @@
     .home-cnt p,.harmony-sec p,.about-cnt p{font-size: 16px;}
     .home-cnt a,.testi-btn a {font-size: 16px;line-height:16px;}
     .about {padding: 40px 0;}
-    .about h2 {font-size: 30px;}
+    .about h2 {font-size: 28px;}
     .cot-cnt {font-size: 30px;}
     .test-cnt h3 {font-size: 17px;}
     .test-cnt span{font-size: 16px;}
@@ -212,7 +213,7 @@
     .high-img img {width: 30px;height: 30px;}
     .harmony-sec h2 {font-size: 35px;padding: 0 15px;}
     .harmony-sec p{padding: 0 15px;}
-    .about h2 {font-size: 30px;}
+    .about h2 {font-size: 25px;}
     .highlights {padding: 60px 0;}
     .harmony-img {max-width: 240px;}
     .high-cnt h4 {font-size: 17px;}
@@ -282,7 +283,6 @@
     #fran-form .submit-btn {padding: 9px 30px;}
     .book-rules ul li{font-size: 15px;line-height: 24px;}
     .datepickers-container .datepicker{width: 200px;}
-    .about h2 {font-size: 28px;}
     
     
 }
