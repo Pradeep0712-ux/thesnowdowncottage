@@ -18,6 +18,10 @@
     .contact-section p.contact-para {font-size: 22px;}
 }
 
+@media (max-width:1366px){
+    p.area-para {font-size: 18px;}
+}
+
 @media (max-width: 1200px) {
     
     /* header */
@@ -66,6 +70,7 @@
 
     /* area */
     p.area-para {font-size: 17px;}
+    section.area-section{padding: 50px 0;}
 
 }
 
