@@ -218,13 +218,14 @@ section.astronomy-section {padding: 40px 0px;position: relative;display: block;z
 section.contact-section {padding: 60px 0px;position: relative;display: block;z-index: 0;}
 .contact-section h2 {margin-bottom: 15px;font-size: 60px;}
 .contact-section p.contact-para {font-size: 20px;line-height: normal;font-weight: 100;font-style: normal;color: var(--txt-color);}
-.icon-section {padding: 30px 0px;position: relative;display: flex;flex-direction: column;gap: 40px;}
-.flex-icon {display: flex;align-items: center;gap: 25px;}
-.flex-icon .icon {height: 75px;width: 75px;border: 2px solid #e26143;padding: 15px;border-radius: 50%;display: flex;align-items: center;justify-content: center;}
-.flex-icon .icon img {filter: brightness(0) saturate(100%) invert(54%) sepia(80%) saturate(2553%) hue-rotate(332deg) brightness(91%) contrast(94%);max-width: 35px;}
-.cont h3 {color: #000;font-family: var(--Jost-Regular);font-size: 20px;margin-bottom: 5px;}
+.icon-section {padding: 30px 0px;position: relative;display: flex;row-gap: 20px;}
+.flex-icon {display: flex;align-items: center;column-gap: 20px;flex-wrap: wrap;justify-content: center;row-gap: 20px;    border-radius: 15px;}
+.flex-icon .icon {height: 70px;width: 70px;border: 2px solid #e26143;padding: 15px;border-radius: 50%;display: flex;align-items: center;justify-content: center;background: #e2614317;}
+.flex-icon .icon img {filter: brightness(0) saturate(100%) invert(54%) sepia(80%) saturate(2553%) hue-rotate(332deg) brightness(91%) contrast(94%);max-width: 30px;}
+.cont{text-align: center;width: 100%;padding: 0 10px;}
+.cont h3 {color: #000;font-family: var(--Jost-Regular);font-size: 18px;margin-bottom: 5px;}
 .cont h3:hover a{color: var(--red);}
-.cont h4 {display: block;max-width: fit-content;color: var(--txt-color);font-family: var(--Jost-Regular);font-size: 20px;}
+.cont h4 {display: block;color: var(--txt-color);font-family: var(--Jost-Regular);font-size: 20px;width: 100%;text-align: center;}
 .contact-card {padding: 50px;border-radius: 0px;border: 0px;background: #e2614321;}
 .contact-div {margin-top: 15px;}
 .contact-div .form-label {text-transform: uppercase;font-size: 16px;margin-bottom: 5px;font-family: var(--Jost-Regular);}
