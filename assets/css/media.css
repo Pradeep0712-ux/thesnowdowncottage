@@ -269,7 +269,7 @@
 @media (max-width: 375px) {
 
     /* header */
-    .menu-mid {flex:0 1 170px;}
+    .menu-mid {flex:0 1 168px;}
     .m-menu {width:25px;}
     .m-menu.open span:nth-child(3) {top:18px;}
     .menu-rgt li .book-btn a {font-size:13px; padding:6px 11px;}
