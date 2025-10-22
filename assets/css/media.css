@@ -50,6 +50,7 @@
     /* booking */
     .inner-cnt h1{font-size: 65px;}
     .booking{padding: 60px 0;}
+    section.contact-section{height: calc(100vh - 201px);}
 
     /* astronomy , contact , gallery */
     .astronomy-section p.para {font-size: 20px;}
@@ -104,6 +105,7 @@
     .res-dates {flex: 0 1 66.7%;}
     .res-guests{flex:0 1 33.3%;padding-right: 0;}
     .res-btn{flex:0 1 100%}
+    section.contact-section{height: calc(100vh - 187px);}
 
     /* astronomy , contact , gallery */
     .gallery-section h2{font-size: 45px;}
@@ -163,6 +165,7 @@
     .res-guests{flex: 0 1 100%}
     .res-dates ul li label,.res-guests label{line-height: 20px;}
     .gdropdown-menu{max-width: 320px;}
+    section.contact-section{height: auto;}
     
     /* astronomy , contact , gallery */
     .gallery-section h2 {font-size: 40px;}
